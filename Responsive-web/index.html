@@ -2,35 +2,39 @@
 <html>
   <head>
     <title>microverse trial Survey Form</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
+    <!-- the header is for the form title-->
     <header>
       <h1>microverse Survey Form</h1>
       <p>Thank you for taking the time to help us improve the platform:</p>
     </header>
+    <!-- this is the begining of the form-->
     <form>
       <label for="name">Name:</label>
-      <input type="text" id="name" name="name"><br>
-      
+      <input type="text" id="name" name="name" /><br />
+
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email"><br>
-      
+      <input type="email" id="email" name="email" /><br />
+
       <label for="age">Age (optional):</label>
-      <input type="number" id="age" name="age"><br>
-      
-      <label for="gender">Which option best describes your current role?:</label>
+      <input type="number" id="age" name="age" /><br />
+
+      <label for="gender"
+        >Which option best describes your current role?:</label
+      >
       <select id="gender" name="gender">
         <option value="student">Student</option>
         <option value="full-time-job">Full time job</option>
         <option value="full-time-learner">Full time learner</option>
-        <option value="prefer-not-to-say">Prefer not to say</option>
-      </select><br>
-      
+        <option value="prefer-not-to-say">Prefer not to say</option></select
+      ><br />
+
       <label for="feedback">Feedback:</label>
-      <textarea id="feedback" name="feedback"></textarea><br>
-      
+      <textarea id="feedback" name="feedback"></textarea><br />
+
       <button type="submit">Submit</button>
     </form>
     <footer>
