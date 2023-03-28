@@ -1,1 +1,39 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>microverse trial Survey Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <h1>microverse Survey Form</h1>
+      <p>Thank you for taking the time to help us improve the platform:</p>
+    </header>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br>
+      
+      <label for="age">Age (optional):</label>
+      <input type="number" id="age" name="age"><br>
+      
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="non-binary">Non-binary</option>
+      </select><br>
+      
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback"></textarea><br>
+      
+      <button type="submit">Submit</button>
+    </form>
+    <footer>
+      <p>Thank you for your feedback!</p>
+    </footer>
+  </body>
+</html>
